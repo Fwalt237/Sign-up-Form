@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('./webfonts_Norse-Bold/Norse-Bold.ttf.woff') format('opentype');
+    font-weight: bold; /* Specify the font weight */
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(15, 15, 15);
+    /*font-family: 'Norse Bold', sans-serif;  Add a fallback font */
+}
+
+.container {
+    width: 68.5rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.firstRec {
+    width: 25.5rem;
+    height: 100vh;
+    background-image: url("halie-west.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.odcontain {
+    width: 25.5rem;
+    height: 7rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 10.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.odin {
+    width: 4.5rem;
+    height: 6rem;
+    background-image: url("odin-lined.png");
+    background-size: cover;
+   
+}
+
+.odintext {
+    font-size: 5rem;
+    color: aliceblue;
+    font-family: 'Norse Bold', sans-serif;
+    margin-top: 0.2rem;
+}
+
+.footer {
+    color: rgb(231, 231, 231);
+    opacity: 0.9;
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.secondRec {
+    width: 43rem;
+    height: 100vh;
+    background-color: rgb(248, 247, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2rem;
+}
+
+.firstext{
+    flex-wrap: wrap;
+    width: 511px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: light;
+    margin-top: 6rem;
+}
+
+/*Registration form*/
+
+.registration-form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 510px;
+    max-width: 510px;
+    margin-top: -3rem;
+    margin-bottom: 14rem;
+    margin-left: -12px;
+}
+
+.registration-form h2 {
+   
+    margin-bottom: 20px;
+    color: #333;
+    font-size:larger;
+}
+
+.form-row {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    flex: 1;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight:lighter;
+    font-size: smaller;
+}
+
+.form-group input {
+    width: 14rem;
+    padding: 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 30px;
+}
+
+.form-group input:focus-within {
+    border-color: rgb(44, 134, 219);
+    box-shadow: 0 0 5px  rgb(44, 134, 219);
+}
+
+.form-group input:invalid {
+    border-color: red;
+}
+
+.create-account-btn {
+    width: 12rem;
+    padding: 10px;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight:bolder;
+    font-size: smaller;
+    margin-top: 3rem;
+}
+
+.create-account-btn:hover {
+    background-color: darkgreen;
+}
+.lastline{
+    margin-top: -9rem;
+    font-size: medium;
+    margin-left: 1rem;
+}
